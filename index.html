@@ -1,11 +1,364 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="keywords" content="Omesh Dubey portfolio,, Omesh Dubey,personal portfolio, portfolio design, portfolio website, personal portfolio, MERN developer, reactjs developer, MERN stack, full stack developer" />
+    <meta name="description" content="Welcome to Omesh Dubey Portfolio. Passionate Full-stack Web Developer." />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assests/images/profesnal profile pick-2.jpg" type="image/x-png">
+    
+    <title>Omesh Dubey - Portfolio</title>
 </head>
-<body>
-    <h1>my portfolio</h1>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+<body >
+
+<!-- navbar starts -->
+<header>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="./assests/Omesh_Dubey_Resume (1).pdf" target="_blank" class="btn"><span >Resume</span>
+                  <i class="fas fa-file-pdf"></i>
+              </a>
+          </li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->0
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <!-- <div id="particles-js"></div> -->
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assests/images/Omesh_profile.jpg" alt="pradeep_image">
+    </div>
+
+    <div class="content">
+      <h3>Hi There,<br/> I'm Omesh <span>Dubey</span></h3>
+      <p>I am a <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <!-- <i class="fas fa-arrow-circle-down"></i> -->
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" href="https://www.linkedin.com/in/omesh-dubey-1456a0253/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" href="https://github.com/omesh96" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="email" href="https://mail.google.com/" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div>
+    </div>
+</section>
+<!-- hero section ends -->
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h1 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h1>
+    
+    <div class="row">
+    <div class="content">
+        <h3>I'm Omesh Dubey</h3>
+        <span class="tag"></span>
+        <p> 
+          Enthusiastic and well-organized Full Stack Web Developer with 
+        <i style="color:red"> 2500 +</i>
+          of rigorous <i style="color:red">coding experience</i>. Curious to learn about emerging web technologies. 
+          Eager to join, 
+          to bring in top-class Full Stack Web Development and <i style="color:red">problem-solving skills</i>.
+          Seeks a responsible and
+          stimulating career, and looks forward to developing the skills
+          and knowledge that will be fully used for the organization's
+          ultimate goal.</p>
+        <div class="box-container">
+            <div class="box">
+              <p><span> Phone : </span>+91 9651687980</p>
+              <p><span> Email : </span> omeshdubey80@gmail.com</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="./assests/Omesh_Dubey_Resume (1).pdf" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-file-pdf"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Tools</span></h2>
+
+  <div class="container">
+    <div class="row" id="skillsContainer">
+    </div>
+  </div>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+ <!-- <section class="education" id="education"> -->
+
+  <!-- <h1 class="heading"><i class="fas fa-briefcase"></i><span>Experience</span></h1>
+    <div class="box-container"> -->
+    <!-- <div class="box">
+        <div class="image">
+        <img draggable="false" src="https://pbs.twimg.com/profile_images/1215632293059948545/8sMku6vP_400x400.png" alt="Tricog Health">
+        </div>
+        <div class="content">
+        <h3>Tricog Health</h3>
+        <p>Associate Software Engineer</p>
+        <h4>March 2022 - Present</h4>
+        </div>
+    </div> -->
+   <!-- <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assests/images/educat/hqdefault.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Full stack web development</h3>
+        <p>Masai School</p>
+        <h4>January 2022-present | Pursuing</h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assests/images/educat/slide4.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>BA</h3>
+      <p>YCMOU,Nashik</p>
+      <h4>April 2016- May 2019</h4>
+      </div>
+    </div> -->
+
+<!-- </div>
+</section>  -->
+<!-- education section ends -->
+
+
+
+
+
+
+<!-- work project section starts -->
+
+
+
+
+
+ <section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+   <div class="box tilt">
+      <img draggable="false" src="./assests/images/projects/modsens.PNG" alt="modesesn-main Home" />
+      <div class="content">
+        <div class="tag">
+        <h3>Modesens</h3>
+        </div>
+        <div class="desc">
+          <p>ModeSens is an American retail technology company providing men's, women's and children's apparel and accessories.</p>
+          <p><b>Tech stacks : </b>React, Express, MongoDb, Node</p>
+          <div class="btns"> 
+            <a href="https://modesens-nine.vercel.app/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/Chhattoo25/naive-plot-5053" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="box tilt">
+      <img draggable="false" src="./assests/images/projects/zara.PNG" alt="Zara cart" />
+      <div class="content"> 
+        <div class="tag">
+        <h3>ZARA</h3>
+        </div>
+        <div class="desc">
+          <p>Zara is the world's leading e-commerce site for luxury and fashionable goods.</p>
+          <p><b>Tech stacks : </b>HTML, CSS,javaScript</p>
+          <div class="btns"> 
+            <a href="https://sparkly-naiad-2d3824.netlify.app/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/Sandeepyadav14/zara.projects" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt">
+      <img draggable="false" src="./assests/images/projects/yoox.PNG" alt="YOOX" />
+      <div class="content">
+        <div class="tag">
+        <h3>YOOX</h3>
+        </div>
+        <div class="desc">
+          <p> Yoox is the world's leading e-commerce site for luxury and fashionable goods.</p>
+          <p><b>Tech stacks : </b>HTML, CSS,javaScript</p>
+          <div class="btns">
+            <a href="https://elaborate-crepe-773c0b.netlify.app/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/vishalu439/YOOX-WEBSITE-PROJECT.git" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- work project section ends -->
+
+
+<div class="calendar" style="height: 50%; width: 70% ">
+  <!-- Loading stuff -->
+  Loading the data just for you.
+</div>
+<script>
+  GitHubCalendar(".calendar", "omesh96");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "omesh96", { responsive: true });
+</script>
+<div style="display:flex; flex-direction:column">
+  <p align="center">
+    <img
+      align="center"
+      src="https://github-readme-streak-stats.herokuapp.com/?user=omesh96&"
+      alt="balaji"
+      style="height: 50%; width: 40% "
+    />
+  </p>
+  <p align="center" >
+    &nbsp;<img 
+      align="center"
+      src="https://github-readme-stats.vercel.app/api?username=omesh96&show_icons=true&locale=en"
+      alt="balaji"
+      style="height: 50%; width: 40% "
+    />
+  </p>
+  <p align="center">
+    <img
+      align="center"
+      src="https://github-readme-stats.vercel.app/api/top-langs?username=omesh96&show_icons=true&locale=en&layout=compact"
+      alt="balaji"
+      style="height: 50%; width: 40% "
+    />
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts -->
+<section style="margin-top: 2%;" class="footer" id="contact" >
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Omesh's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+      </div>
+
+      <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i>Skills</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i>Work</a>
+      </div>
+
+      <div class="box">
+          <h3>Contact Info</h3>
+          <p> <i class="fas fa-phone"></i>+91 9651687980</p>
+          <p> <i class="fas fa-envelope"></i>omeshdubey80@gmail.com</p>
+          <!-- <p> <i class="fas fa-map-marked-alt"></i>Nanded, Maharashtra, India - 431741</p> -->
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/omesh-dubey-1456a0253/" class="fab fa-linkedin" target="_blank"></a>
+              <a href="https://github.com/omesh96" class="fab fa-github" target="_blank"></a>
+              <a href="https://mail.google.com/" class="fas fa-envelope" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <!-- <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/hramdas"> Ramdas Hedgapure</a></h1> -->
+
+</section>
+<!-- footer section ends -->
+
+<!-- scroll top btn -->
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<!-- <script src="./assests/js/particles.min.js"></script>
+<script src="./assests/js/app.js"></script> -->
+
+<!-- vanilla tilt.js links -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assests/js/script.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YB5N1CWMYZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YB5N1CWMYZ');
+</script>
+
 </body>
 </html>

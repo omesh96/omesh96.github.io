@@ -148,3 +148,12 @@ srtop.reveal(".home .dev", { interval: 600 });
 /* SCROLL CONTACT */
 // srtop.reveal('.contact .container',{delay: 50});
 // srtop.reveal('.contact .container .form-group',{delay: 400});
+
+//document.querySelector("#resumebtn").addEventListener("click",resumefn())
+
+function resumefn(){
+   window.open("https://drive.google.com/file/d/1Xq8dz9FMH0sgQvKIVV77-PSGmh11yios/view?usp=share_link")
+ 
+
+ 
+}

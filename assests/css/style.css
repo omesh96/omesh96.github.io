@@ -800,29 +800,31 @@ margin-left: 10%;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
+ 
+ 
 }
 .work .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-  height: 30rem;
+ 
+ 
+ 
+ 
 }
 .work .box-container .box img {
-  height: 100%;
+  height: 60%;
   width: 100%;
   object-fit: cover;
 }
 .work .box-container .box .content {
-  height: 100%;
+ 
   width: 100%;
-  position: absolute;
-  top: 85%;
-  left: 0;
+  
   background: rgba(255, 255, 255, 0.9);
   display: flex;
   flex-direction: column;
+ 
 }
 .work .box-container .box .content .tag {
   display: flex;
@@ -837,14 +839,13 @@ margin-left: 10%;
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
 }
-.work .box-container .box:hover .content {
-  top: 25%;
-}
+
 .work .desc {
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 .work .desc p {
   font-size: 1.5rem;

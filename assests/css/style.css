@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
@@ -673,6 +674,7 @@ margin-left: 10%;
   }
 }
 
+
 /* skills media queries ends*/
 /* skills section ends */
 
@@ -787,6 +789,7 @@ margin-left: 10%;
 .work {
   /* background: #010124; */
   /* background: linear-gradient(to bottom, #000031, #00002c); */
+ 
 }
 .work h2 {
   color:rgb(218,165,32);
@@ -798,9 +801,9 @@ margin-left: 10%;
 .work .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 5.5rem;
   margin: 2rem;
- 
+  
  
 }
 .work .box-container .box {
@@ -814,7 +817,8 @@ margin-left: 10%;
 }
 .work .box-container .box img {
   height: 60%;
-  width: 100%;
+  width: 95%;
+  margin:auto;
   object-fit: cover;
 }
 .work .box-container .box .content {
@@ -913,7 +917,9 @@ margin-left: 10%;
   }
   .work .box-container {
     flex-direction: column;
+    
   }
+
 }
 @media (max-width: 500px) {
   .work {
@@ -1323,3 +1329,23 @@ margin-left: 10%;
 /* scroll top ends */
 
 
+
+
+#lastdiv img{
+  height: 40%;
+  width: 60%;
+}
+
+@media all and (min-width:320px) and (max-width: 840px){
+
+  #lastdiv{
+    width: 99%;
+   
+  }
+  #lastdiv img{
+    width: 98%;
+    height: 100%;
+    margin: auto;
+   
+   }
+}

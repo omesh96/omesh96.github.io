@@ -111,6 +111,7 @@ const srtop = ScrollReveal({
   reset: true,
 });
 
+
 /* SCROLL HOME */
 srtop.reveal(".home .content h3", { delay: 200 });
 srtop.reveal(".home .content p", { delay: 200 });
@@ -125,16 +126,25 @@ srtop.reveal(".home .email", { interval: 600 });
 srtop.reveal(".home .dev", { interval: 600 });
 
 /* SCROLL ABOUT */
-// srtop.reveal(".about h3", { delay: 100 });
-// srtop.reveal(".about .content .tag", { delay: 100 });
-// srtop.reveal(".about .content p", { delay: 200 });
-// srtop.reveal(".about .content .box-container", { delay: 200 });
-// srtop.reveal(".about .content .resumebtn", { delay: 150 });
+srtop.reveal("#about", { interval: 100 });
+ srtop.reveal("#about", { delay: 100 });
+ srtop.reveal(".about .content .tag", { delay: 100 });
+ srtop.reveal(".about .content p", { delay: 200 });
+ srtop.reveal(".about .content .box-container", { delay: 200 });
+ srtop.reveal(".about .content .resumebtn", { delay: 150 });
 
 /* SCROLL SKILLS */
-// srtop.reveal(".skills .container", { interval: 100 });
-// srtop.reveal('.skills .container .bar',{delay: 300});
+ srtop.reveal("#skills", { interval: 100 });
+ srtop.reveal(".skills .heading .container", { interval: 200 });
+ srtop.reveal('.skills .container .bar',{delay: 300});
+const targetElement = document.querySelector('#skills');
+const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
 
+// Stop the scroll before the target position
+window.scrollTo({
+  top: targetPosition,
+  behavior: 'smooth'
+});
 /* SCROLL EDUCATION */
 // srtop.reveal('.education .box',{interval: 200});
 

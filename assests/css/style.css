@@ -789,7 +789,8 @@ margin-left: 10%;
 .work {
   /* background: #010124; */
   /* background: linear-gradient(to bottom, #000031, #00002c); */
- 
+  margin-bottom: 15px;
+
 }
 .work h2 {
   color:rgb(218,165,32);
@@ -811,14 +812,17 @@ margin-left: 10%;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
  
+ margin-top: 25px;
+ margin-bottom: 25px;
  
  
  
 }
 .work .box-container .box img {
   height: 60%;
-  width: 95%;
-  margin:auto;
+  width: 100%;
+ margin-top: 10px;
+ margin-bottom: 10px;
   object-fit: cover;
 }
 .work .box-container .box .content {
@@ -828,6 +832,8 @@ margin-left: 10%;
   background: rgba(255, 255, 255, 0.9);
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 15px;
  
 }
 .work .box-container .box .content .tag {
@@ -1348,4 +1354,7 @@ margin-left: 10%;
     margin: auto;
    
    }
+}
+#calender{
+  margin-top: 25px;
 }

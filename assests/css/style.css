@@ -931,6 +931,10 @@ margin-left: 10%;
   .work {
     padding: 5rem 0%;
   }
+  .work .box-container .box{
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
 }
 @media (min-width: 900px) {
   .work .box-container .box {

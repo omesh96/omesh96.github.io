@@ -642,12 +642,15 @@ margin-left: 10%;
 }
 /* skills media queries starts*/
 @media screen and (max-width: 950px) {
+  #skills{
+    margin-top: -300px;
+  }
   .skills .container {
     padding: 0;
     margin: 0;
   }
   .skills .container .row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
@@ -658,6 +661,10 @@ margin-left: 10%;
   }
 }
 @media screen and (max-width: 600px) {
+  #skills{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
   .skills .container {
     padding: 0;
     margin: 0;
@@ -1361,4 +1368,106 @@ margin-left: 10%;
 }
 #calender{
   margin-top: 25px;
+}
+
+/* Tools css start here */
+#tools {
+ 
+
+ 
+  margin-top: -90px;
+ 
+  /* background: linear-gradient(to bottom, rgb(250,250,210), rgb(255,223,0)); */
+}
+.tools h2 {
+  color: rgb(218,165,32);
+}
+.tools .heading span {
+  color: rgb(255,215,0);
+}
+.tools .container {
+  /* background: rgb(255,215,0); */
+  color:black;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  
+}
+.tools .container .row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  flex-wrap: wrap;
+  gap: 1.8rem;
+ 
+}
+.tools .container .bar {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 1rem;
+  background: rgb(246, 224, 168);
+  transition: 0.2s;
+}
+.tools .container .bar:hover {
+  box-shadow: 0 8px 10pxrgb(255,215,0) !important;
+  background-color: rgb(255,215,0) !important;
+}
+.tools .container .bar .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.tools .container .bar .info i {
+  font-size: 2rem;
+}
+.tools .container .bar .info img {
+  width: 40%;
+
+ 
+}
+/* skills media queries starts*/
+@media screen and (max-width: 950px) {
+  .tools {
+   
+    margin-top: -350px;
+   
+  }
+  .tools .container {
+    padding: 0;
+    margin: 0;
+  }
+  .tools .container .row {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+  .tools .container {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tools {
+   
+    margin-top: -30px;
+   
+  }
+  .tools .container {
+    padding: 0;
+    margin: 0;
+  }
+  .tools .container .row {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+  .tools .container {
+    margin-top: 5px;
+    width: 100%;
+  }
 }

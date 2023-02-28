@@ -69,6 +69,13 @@ async function fetchData(type = "skills") {
   return data;
 }
 
+// tools start
+
+
+
+
+// tools end //
+
 function showSkills(skills) {
   let skillsContainer = document.getElementById("skillsContainer");
   let skillHTML = "";

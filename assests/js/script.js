@@ -144,7 +144,7 @@ srtop.reveal("#about", { interval: 100 });
  srtop.reveal("#skills", { interval: 100 });
  srtop.reveal(".skills .heading .container", { interval: 200 });
  srtop.reveal('.skills .container .bar',{delay: 300});
-const targetElement = document.querySelector('#skills');
+const targetElement = document.querySelector('#home');
 const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
 
 // Stop the scroll before the target position

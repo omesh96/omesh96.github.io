@@ -108,6 +108,7 @@ function fadeOut() {
   setInterval(loader, 500);
 }
  window.onload = fadeOut;
+ //  window.onload = fadeOut;
 // pre loader end
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
